@@ -11,7 +11,7 @@ if(!defined('INC')) exit();
 class Core {
 
 	/**
-	 * Tableau contenant les références des objets daz
+	 * Tableau contenant les références des objets
 	 * @access private
 	 */
 	private static $objets = array();

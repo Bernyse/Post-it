@@ -1,7 +1,7 @@
 <?php
 if(!defined('INC')) exit();
 /**
-*	Database
+*	Databasesss
 *	Classe d'accès et de traitements sur la BDD
 *	@author Baptiste WALLERICH
 *	@author Guillaume LESNIAK

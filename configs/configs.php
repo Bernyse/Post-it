@@ -4,15 +4,13 @@ if(!defined('INC')) exit();
  * Configs
  * Implémentation du pattern registry et singleton
  *
- * @version 0.3
- * @author Baptiste Wallerich
  */
 $configs = array(
 
 	/**
 	*	Configurations générales
 	*/
-	'framework_name' => 'charlyFwk',
+	'framework_name' => 'PostItFwk',
 	'framework_version' => '0.3',
 	
 	/**

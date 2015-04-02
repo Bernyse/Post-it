@@ -6,7 +6,7 @@ if(!defined('INC')) exit();
  * Les configs sont stockées dans le fichier configs/configs.php 
  *
  * @version 0.1
- * @author Baptiste Wallerich
+ * @author Poppy
  */
 class Config {
 	

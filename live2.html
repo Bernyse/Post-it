@@ -1,0 +1,84 @@
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">POST IT</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#Accueil">Accueil</a></li>
+            <li><a href="#Qui">Qui sommes-nous?</a></li>
+            <li><a href="#Commencer">Démarrer l'aventure</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>  
+    <div class="container">
+
+      <div class="starter-template">
+         <br> <br> <br>   <br> <br> <br>
+        <h1>Event : Gala MIAGE</h1>
+        <p class="lead">  </p>
+      </div>
+        
+      <!-- Form --> 
+      <div class="container auth">
+          <h1 class="text-center"> Rendez vos évènements mémorables ! <span> </span> ********* </h1>
+          <div id="big-form" class="well auth-box">
+            
+      <form action="NetBeansProjects/PhpP/index.php" method="post">
+         
+          <fieldset>
+              
+          <legend>Postez vos messages</legend>
+          <div class="form-group" >
+            <label class=" control-label" for="textinput">Nom</label>  
+            <input id="textinput" name="user" placeholder="Ici" type="text">
+          </div> 
+          
+          <div class="">
+              <label class=" control-label" for="msg">Message</label> <br>
+            <textarea rows="4" name="message" id="msg"></textarea>
+            <!--<input id="textinput2" name="message" placeholder="Ici" class="form-control input-md"  type="text" >  -->
+          </div>
+          
+           <div>
+              <a href="" class="btn btn-default" >Poster</a>
+          </div>
+          </fieldset>
+          </form> 
+            
+          </div>
+          <!-- Ecran de restitution des messages -->
+          <div >
+                <h1> Messages postés </h1> 
+              <!-- largeur et hauteur adaptable selon le contenu text mais pas encore image-->
+                <div class="container-fluid">
+                    <!-- ligne 1 -->
+                    <div class="row">
+                        <div class="col-lg-3"> <h1> L1 Partie 1 </h1></div>
+                        <div class="col-lg-3"> L1 Partie 2 <h1> Message from Unknown : Oh là là il y'en a de la place pour écrire :) </h1>  </div>
+                         <div class="col-lg-3"><h1> L1 Partie 3 </h1></div>
+                        <div class="col-lg-3"><h1> L1 Partie 4 </h1></div>
+                    </div>
+                    <!-- ligne 2 -->
+                    <div class="row">
+                       <div class="col-lg-3">L2 Partie 1</div>
+                       <div class="col-lg-3">L2 Partie 2 <!-- <img alt="" src="img/dj.jpg"/>--></div>
+                       <div class="col-lg-3">L2 Partie 3</div>
+                       <div class="col-lg-3">L2 Partie 4</div>
+                     </div>     
+
+                </div>
+              
+           
+          </div>
+
+    </div>
+     </div>
+    

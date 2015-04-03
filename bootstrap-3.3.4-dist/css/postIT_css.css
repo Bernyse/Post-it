@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3 avr. 2015, 04:19:56
+    Author     : bernyse
+*/
+
+.container-fluid {
+  padding-right: 20px;
+  padding-left: 20px; 
+  background-color: black;
+}
+
+.row{
+  width: 100%;
+  background-color: black;
+    margin-left: -20px;
+    margin-top : 10px;
+margin-bottom : 10px;
+}
+
+.photo{
+    
+}
+
+
+[class*="col-"], footer {
+    display : inline; 
+  background-color: black;
+  line-height: 30px;
+  max-width:275px;
+  text-align: center;
+   border-radius: 5px 5px 5px 5px;
+   border-left: outset;
+     border-right: outset;
+     border-right-color: blue;
+      border-left-color: blue;
+       border-top-color: blue;
+   margin-bottom : 10px;
+   width: 100%;
+   word-wrap:break-word; /* adapte le contenu text à la div */
+   background-size:100% auto; /* ADAPTATION de l'image au conteneur */
+}
+  
+}

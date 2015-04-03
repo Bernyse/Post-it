@@ -1,7 +1,7 @@
 <?php
 if(!defined('INC')) exit();
 /**
- * Configs
+ * Configs  -
  * Implémentation du pattern registry et singleton
  *
  */
